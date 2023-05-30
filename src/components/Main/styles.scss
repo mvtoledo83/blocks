@@ -1,0 +1,83 @@
+main.blocks-front-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  article.blocks-front-main-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 34px;
+    width: 74%;
+    font-family: "open-sans", sans-serif;
+
+    h2.blocks-front-main-article-h2 {
+      margin-bottom: 18px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      color: #202020;
+    }
+
+    ul.blocks-front-main-article-ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+
+      li.blocks-front-main-article-ul-li {
+        display: flex;
+        flex-direction: column;
+        width: 18%;
+
+        div.blocks-front-main-article-ul-li-div-img {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: #ffffff;
+          border: 1px solid #cccccc;
+          border-radius: 8px 8px 0px 0px;
+
+          img.blocks-front-main-article-ul-li-div-img-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+          }
+        }
+
+        div.blocks-front-main-article-ul-li-div-information {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 8px;
+          width: 100%;
+          height: max-content;
+          background: linear-gradient(180deg, #fefefe 0%, #f8f8f8 100%);
+          border-width: 0px 1px 1px 1px;
+          border-style: solid;
+          border-color: #cccccc;
+          backdrop-filter: blur(20px);
+          border-radius: 0px 0px 8px 8px;
+
+          p.blocks-front-main-article-ul-li-div-information-p {
+            font-family: "Open Sans", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10px;
+            color: #202020;
+          }
+
+          span.blocks-front-main-article-ul-li-div-information-span {
+            display: block;
+            border-left: 2px solid #CCCCCC;
+            padding-left: 8.5px;
+          }
+        }
+      }
+    }
+  }
+}

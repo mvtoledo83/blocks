@@ -1,0 +1,27 @@
+header.blocks-front-HeaderMain-header {
+  display: flex;
+  flex-direction: column;
+  padding: 29px 13%;
+  width: 100%;
+  border-top: 2px solid;
+  border-image: linear-gradient(90deg, #a11cf3 0%, #d835c5 100%);
+  border-image-slice: 1;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+  h1.blocks-front-HeaderMain-header-h1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #202020;
+  }
+  hr.blocks-front-HeaderMain-header-hr {
+    width: 34px;
+    height: 5px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    background: linear-gradient(90deg, #a11cf3 0%, #d835c5 100%);
+    color: linear-gradient(90deg, #a11cf3 0%, #d835c5 100%);
+  }
+}

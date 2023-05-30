@@ -1,0 +1,27 @@
+ul.blocks-front-footer-links-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+
+  li.blocks-front-footer-links-ul-li {
+    display: flex;
+    width: max-content;
+    text-decoration: none;
+
+    a.blocks-front-footer-links-ul-li-a {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #322e2e;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
