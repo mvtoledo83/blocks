@@ -42,7 +42,6 @@ const PremiumBanner = () => {
       <a
         id="blocks-front-premiumbanner-a"
         className="blocks-front-premiumbanner-a"
-        href=""
       >
         Quero ser Premium
         <svg

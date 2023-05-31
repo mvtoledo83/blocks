@@ -14,7 +14,6 @@ const Links = () => {
         <a
           id="blocks-front-footer-links-ul-li-a"
           className="blocks-front-footer-links-ul-li-a"
-          href="#"
         >
           Sobre
         </a>
@@ -26,7 +25,6 @@ const Links = () => {
         <a
           id="blocks-front-footer-links-ul-li-a"
           className="blocks-front-footer-links-ul-li-a"
-          href="#"
         >
           FAQ
         </a>
@@ -38,7 +36,6 @@ const Links = () => {
         <a
           id="blocks-front-footer-links-ul-li-a"
           className="blocks-front-footer-links-ul-li-a"
-          href="#"
         >
           Termos de Uso
         </a>
@@ -50,7 +47,6 @@ const Links = () => {
         <a
           id="blocks-front-footer-links-ul-li-a"
           className="blocks-front-footer-links-ul-li-a"
-          href="#"
         >
           Politica de Privacidade
         </a>

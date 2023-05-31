@@ -10,7 +10,6 @@ const PremiumBannerMobile = () => {
       <a
         id="blocks-front-premiumbannermobile-close-link"
         className="blocks-front-premiumbannermobile-close-link"
-        href=""
       >
         Fechar
         <span
@@ -43,7 +42,6 @@ const PremiumBannerMobile = () => {
       <a
         id="blocks-front-premiumbannermobile-a"
         className="blocks-front-premiumbannermobile-a"
-        href=""
       >
         Quero ser Premium
         <svg

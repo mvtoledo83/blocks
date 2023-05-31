@@ -70,6 +70,7 @@ section.blocks-front-premiumbannermobile {
     );
     backdrop-filter: blur(20px);
     border-radius: 8px;
+    cursor: pointer;
 
     @media all and (min-width: 320px) and (max-width: 1023px) {
       width: 223px;
