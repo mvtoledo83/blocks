@@ -3,6 +3,7 @@ main.blocks-front-main {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 48px;
 
   article.blocks-front-main-article {
     display: flex;
@@ -29,7 +30,8 @@ main.blocks-front-main {
       li.blocks-front-main-article-ul-li {
         display: flex;
         flex-direction: column;
-        width: 18%;
+        margin-bottom: 16px;
+        width: 19%;
 
         div.blocks-front-main-article-ul-li-div-img {
           display: flex;
@@ -51,7 +53,7 @@ main.blocks-front-main {
         div.blocks-front-main-article-ul-li-div-information {
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: space-between;
           align-items: center;
           padding: 8px;
           width: 100%;

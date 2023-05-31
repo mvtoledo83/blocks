@@ -1,0 +1,93 @@
+section.blocks-front-premiumbannermobile {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: inherit;
+  top: 0;
+  left: 0;
+  padding: 12px 0;
+  width: 100%;
+  background: rgba(36, 36, 36);
+  backdrop-filter: blur(20px);
+  z-index: 2;
+
+  @media all and (min-width: 320px) and (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a.blocks-front-premiumbannermobile-close-link {
+    display: flex;
+    align-items: center;
+    margin: 18px 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+
+    span.blocks-front-premiumbannermobile-close-link-icon {
+      display: block;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+
+  p.blocks-front-premiumbannermobile-p {
+    margin-right: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+
+    @media all and (min-width: 320px) and (max-width: 1023px) {
+      margin: 0 0 18px 0;
+      padding: 0 14px;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+    }
+  }
+  a.blocks-front-premiumbannermobile-a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 235px;
+    height: 43px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(
+      90deg,
+      rgba(161, 28, 243, 0.6) 0%,
+      rgba(216, 53, 197, 0.6) 100%
+    );
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+
+    @media all and (min-width: 320px) and (max-width: 1023px) {
+      width: 223px;
+      height: 42px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    &:hover {
+      background: rgba(223, 172, 255, 0.1);
+    }
+
+    svg.blocks-front-premiumbannermobile-a-svg {
+      display: block;
+      margin-left: 15px;
+    }
+  }
+}
