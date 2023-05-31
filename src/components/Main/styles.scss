@@ -47,6 +47,10 @@ main.blocks-front-main {
           margin-bottom: 17px;
         }
 
+        @media all and (min-width: 1920px) {
+          width: 13%;
+        }
+
         div.blocks-front-main-article-ul-li-div-img {
           display: flex;
           flex-direction: column;
