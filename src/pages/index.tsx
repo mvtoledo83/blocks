@@ -7,8 +7,6 @@ import Main from "../components/Main";
 import PremiumBanner from "../components/PremiumBanner";
 import PremiumBannerMobile from "../components/PremiumBannerMobile";
 
-
-
 const Index = () => {
   return (
     <>
