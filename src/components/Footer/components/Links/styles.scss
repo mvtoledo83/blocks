@@ -4,10 +4,20 @@ ul.blocks-front-footer-links-ul {
   align-items: center;
   width: 35%;
 
+  @media all and (min-width: 320px) and (max-width: 1023px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+  }
+
   li.blocks-front-footer-links-ul-li {
     display: flex;
     width: max-content;
     text-decoration: none;
+
+    @media all and (min-width: 320px) and (max-width: 1023px) {
+      margin-bottom: 12px;
+    }
 
     a.blocks-front-footer-links-ul-li-a {
       font-family: "Open Sans", sans-serif;
@@ -18,6 +28,10 @@ ul.blocks-front-footer-links-ul {
       text-align: center;
       color: #322e2e;
       text-decoration: none;
+
+      @media all and (min-width: 320px) and (max-width: 1023px) {
+        font-size: 14px;
+      }
 
       &:hover {
         text-decoration: underline;
