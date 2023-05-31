@@ -13,12 +13,21 @@ main.blocks-front-main {
     width: 74%;
     font-family: "open-sans", sans-serif;
 
+    @media all and (min-width: 320px) and (max-width: 1023px) {
+      width: 90%;
+    }
+
     h2.blocks-front-main-article-h2 {
       margin-bottom: 18px;
       font-style: normal;
       font-weight: 600;
       font-size: 24px;
       color: #202020;
+
+      @media all and (min-width: 320px) and (max-width: 1023px) {
+        margin-bottom: 14px;
+        font-size: 20px;
+      }
     }
 
     ul.blocks-front-main-article-ul {
@@ -32,6 +41,11 @@ main.blocks-front-main {
         flex-direction: column;
         margin-bottom: 16px;
         width: 19%;
+
+        @media all and (min-width: 320px) and (max-width: 1023px) {
+          width: 47%;
+          margin-bottom: 17px;
+        }
 
         div.blocks-front-main-article-ul-li-div-img {
           display: flex;
@@ -75,7 +89,7 @@ main.blocks-front-main {
 
           span.blocks-front-main-article-ul-li-div-information-span {
             display: block;
-            border-left: 2px solid #CCCCCC;
+            border-left: 2px solid #cccccc;
             padding-left: 8.5px;
           }
         }
